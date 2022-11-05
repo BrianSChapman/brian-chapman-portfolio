@@ -1,7 +1,43 @@
-/* Hex colors: blue #114B5F and Cream #F3E8D2 and Dark Green #1A946F */
 * {
-    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    box-sizing: -box;
   }
-body {
+  
+  body {
+    position:relative; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #ebe1d0 ; color: #256072 ;
+    margin: 0;
+  }
+  
+  h1 {
+    display: inline-block; background-color: #e2c48b ;
+    }
+ 
+  header ul { 
+    display:flex;
+    padding: 0px 20px;
+     text-align: right;
+     list-style: none;
+     }
+
+header li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header a { text-decoration: underline 3px; 
+        color:#256072 ; 
+        list-style-type: none;
+}
+
+nav {
     
 }
+
+
+  
+  
+
+/* Hex colors: blue #114B5F and Cream #F3E8D2 and Dark Green #1A946F */
