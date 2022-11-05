@@ -17,9 +17,13 @@
   
   h1 {
     display: inline-block; background-color: #ebe1d0 ; 
+    border-radius: 10px;
+    border-color: #dacdb8;
     text-align: left; 
     margin-top: 20px; font-size: 35px;
     padding: 5px 5px 5px 25px;
+    position: relative; top: 5px; 
+
     }
 
  
@@ -28,9 +32,10 @@
     flex-direction: row;
     justify-content: right;
     align-items: right;
-    margin: 0 5px ;  
+    margin-right: 25px ;  
      list-style: none;
      font-size: 25px;
+     position: relative; bottom: 55px;
      
      }
 
@@ -51,8 +56,25 @@ header a { text-decoration: underline 3px;
      width:100%;
      opacity: 65%;
      object-fit: cover;
+     position: relative;
+
      
   }
+
+.banner-insert {
+    position: absolute;
+    top: 250px;
+    right: 100px;
+    border: 10px;
+    background-color: #c5a56e;
+    border-radius: 5px;
+    border-color: #dacdb8;
+    display: inline-block;
+    padding-right: 10px;
+    
+  }
+
+  
 .about-me-photo {
     display:flex;
     position:relative;
