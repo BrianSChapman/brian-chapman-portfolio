@@ -89,7 +89,7 @@ header a { text-decoration: underline 3px;
 
   .about-me-section {
     display:flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     border-left: 5px #0b2e38;
 
   }
@@ -100,7 +100,7 @@ header a { text-decoration: underline 3px;
 
     .about-me-section p {
         position: relative;
-        margin-bottom: 200px;
+        margin-bottom: 50px;
         text-align: center;
         justify-content: center;
        
@@ -108,17 +108,38 @@ header a { text-decoration: underline 3px;
 }
 
 .project-1 {
-    display:flex;
-    flex-direction: row;
+   display:flex;
+   justify-content: space-between;
+}
+.project-1 img {
+    display: flexbox;
+    margin-right: 50px;
+    border: 3px #609aad;
+    background-color: #0b2e38;
+}
+
+.project-1 a {
+    border: 3px #609aad;
 }
 
 .project-1 h1 {
-    margin-left: 125px;
-    flex-basis: 150px;
+    margin: 100px 0 0 100px;
+
+}
+.project-2 {
+    display:flex;
+    justify-content: flex-end;
 }
 
-.project-1 figure {
-    
+
+.project-2-led {
+    flex: 1 1 100%;
+ border: 5px #609aad;
+}
+
+.project-2-calc {
+    display: flexbox;
+    border: 5px #609aad;
 }
 
 
