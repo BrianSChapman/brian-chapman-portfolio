@@ -1,7 +1,7 @@
 * {
     margin:0;
     padding:0;
-    box-sizing: -box;
+    box-sizing: border-box;
   }
   
   body {
@@ -17,11 +17,11 @@
   
   h1 {
     display: inline-block; background-color: #ebe1d0 ; 
-    border-radius: 10px;
+    border-radius: 5px;
     border-color: #dacdb8;
     text-align: left; 
     margin-top: 20px; font-size: 35px;
-    padding: 5px 5px 5px 25px;
+    padding: 5px 5px 5px 10px;
     position: relative; top: 5px; 
 
     }
@@ -52,35 +52,76 @@ header a { text-decoration: underline 3px;
 .tropical-photo {
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: 250px;
      width:100%;
      opacity: 65%;
      object-fit: cover;
      position: relative;
-
      
   }
 
 .banner-insert {
     position: absolute;
-    top: 250px;
-    right: 100px;
+    top: 280px;
+    right: 60px;
     border: 10px;
-    background-color: #c5a56e;
-    border-radius: 5px;
-    border-color: #dacdb8;
+    background-color: #dacdb8;;
+    border-radius: 2px;
+    border-color: #ac9a7c;
     display: inline-block;
-    padding-right: 10px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
     
   }
 
-  
-.about-me-photo {
-    display:flex;
-    position:relative;
-    margin-top: 30px;
-    margin-left: 15px;
+  .about-me-photo {
+    position:absolute;
+    border-style:ridge;
+    border-color: #0b2e38;
+    border-radius: 1px;
+    border-bottom: 1px;
+    top: 200px; 
+    margin-top: 20px;
+    margin-left: 35px;
 }
+
+  .about-me-section {
+    display:flex;
+    flex-wrap: wrap;
+    border-left: 5px #0b2e38;
+
+  }
+
+    .about-me-section h1 {
+    margin: 100px 0 0 100px;
+}
+
+    .about-me-section p {
+        position: relative;
+        margin-bottom: 200px;
+        text-align: center;
+        justify-content: center;
+       
+        
+}
+
+.project-1 {
+    display:flex;
+    flex-direction: row;
+}
+
+.project-1 h1 {
+    margin-left: 125px;
+    flex-basis: 150px;
+}
+
+.project-1 figure {
+    
+}
+
+
 
 
 
