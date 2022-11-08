@@ -103,8 +103,7 @@ header a { text-decoration: underline 3px;
         margin-bottom: 50px;
         text-align: center;
         justify-content: center;
-       
-        
+           
 }
 
 .project-1 {
@@ -113,9 +112,10 @@ header a { text-decoration: underline 3px;
 }
 .project-1 img {
     display: flexbox;
-    margin-right: 50px;
+    margin-right: 25px;
     border: 3px #609aad;
     background-color: #0b2e38;
+    width: 1000px
 }
 
 .project-1 a {
@@ -126,27 +126,51 @@ header a { text-decoration: underline 3px;
     margin: 100px 0 0 100px;
 
 }
-.project-2 {
+.project-row-1 {
+    display:flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content:right;
+    border: 20px #0b2e38;
+
+}
+
+
+.project-row-imgs {
+    flex: 1 1 50%;
+    border: 20px #0b2e38;
+ height: 250px; width: 500px;
+ padding: 10px 20px 10px 10px;
+ margin: auto;
+}
+
+
+/* .project-row-2 {
     display:flex;
     justify-content: flex-end;
 }
-
-
-.project-2-led {
-    flex: 1 1 100%;
- border: 5px #609aad;
-}
-
-.project-2-calc {
-    display: flexbox;
-    border: 5px #609aad;
-}
-
-
+ */
 
 
 
   
   
+
+footer {
+    display: flex;
+}
+
+footer nav {
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+    margin-right: 25px ;  
+     list-style: none;
+     font-size: 25px;
+     position: relative; bottom: 55px;
+    
+    }
+
+
 
 /* Hex colors: blue #114B5F and Cream #F3E8D2 and Dark Green #1A946F */
