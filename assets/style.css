@@ -82,6 +82,7 @@ header a { text-decoration: underline 3px;
     border-color: #0b2e38;
     border-radius: 1px;
     border-bottom: 1px;
+    width: 200px; height: 200px;
     top: 200px; 
     margin-top: 20px;
     margin-left: 35px;
@@ -111,15 +112,12 @@ header a { text-decoration: underline 3px;
    justify-content: space-between;
 }
 .project-1 img {
-    display: flexbox;
+    flex: 1 1 100%;
     margin-right: 25px;
     border: 3px #609aad;
+    border-style: ridge;
     background-color: #0b2e38;
     width: 1000px
-}
-
-.project-1 a {
-    border: 3px #609aad;
 }
 
 .project-1 h1 {
@@ -129,45 +127,44 @@ header a { text-decoration: underline 3px;
 .project-row-1 {
     display:flex;
     flex-direction: row;
-    gap: 1em;
-    justify-content:right;
-    border: 20px #0b2e38;
+    justify-content:right; 
 
 }
 
 
 .project-row-imgs {
     flex: 1 1 50%;
-    border: 20px #0b2e38;
+    border: 3px #609aad ;
+    border-style:ridge;
  height: 250px; width: 500px;
- padding: 10px 20px 10px 10px;
- margin: auto;
+ margin: 10px 20px 10px 10px;
 }
 
-
-/* .project-row-2 {
-    display:flex;
-    justify-content: flex-end;
-}
- */
-
-
-
-  
-  
+ 
 
 footer {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: right;
 }
 
 footer nav {
-    flex-direction: row;
-    justify-content: right;
+    flex-basis: 75%;
+}
+
+footer h1 {
+    flex-basis: 25%;
+}
+
+
+footer li {
+    display: inline-block;
     align-items: right;
     margin-right: 25px ;  
      list-style: none;
+    list-style-type:none;
      font-size: 25px;
-     position: relative; bottom: 55px;
     
     }
 
