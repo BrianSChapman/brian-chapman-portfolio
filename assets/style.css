@@ -76,7 +76,7 @@ header a { text-decoration: underline 3px;
     
   }
 
-  .about-me-photo {
+.about-me-photo {
     position:absolute;
     border-style:ridge;
     border-color: #0b2e38;
@@ -88,30 +88,35 @@ header a { text-decoration: underline 3px;
     margin-left: 35px;
 }
 
-  .about-me-section {
-    display:flex;
+.about-me-section {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     border-left: 5px #0b2e38;
 
   }
 
-    .about-me-section h1 {
-    margin: 100px 0 0 100px;
+ .about-me-section h1 {
+        display: flex;
+        position: relative;
+        margin: 100px 0 0 100px;
 }
 
-    .about-me-section p {
-        position: relative;
+.about-me-section p {
+        position: r;
         margin-bottom: 50px;
         text-align: center;
         justify-content: center;
            
 }
 
-.project-1 {
+#project-1 {
    display:flex;
    justify-content: space-between;
 }
-.project-1 img {
+
+#project-1-img {
+    position: relative;
     flex: 1 1 100%;
     margin-right: 25px;
     border: 3px #609aad;
@@ -120,27 +125,42 @@ header a { text-decoration: underline 3px;
     width: 1000px
 }
 
-.project-1 h1 {
+#project-1-h1 {
+    text-align: left;
     margin: 100px 0 0 100px;
+    border-right: 3px #0b2e38;
+    border-right-style: solid;
+    padding-right: 25px;
 
 }
 .project-row-1 {
+    position: relative;
     display:flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content:right; 
 
 }
 
-
 .project-row-imgs {
+    position: relative;
     flex: 1 1 50%;
-    border: 3px #609aad ;
+    border: 5px #609aad ;
     border-style:ridge;
  height: 250px; width: 500px;
  margin: 10px 20px 10px 10px;
 }
 
- 
+.photo-insert-text {
+    position: absolute;
+    border: 1px #0b2e38;
+    border-style: solid;
+    background-color:#dacdb8;
+    padding: 5px;
+    text-align: center;
+    justify-content: left;
+    top: 25px;
+}
 
 footer {
     display: flex;
