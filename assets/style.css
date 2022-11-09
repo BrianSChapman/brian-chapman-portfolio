@@ -186,7 +186,7 @@ footer {
 }
 
 footer nav {
-  font-size: ;  
+  font-size: 
 }
 
 #contact {
@@ -224,6 +224,6 @@ footer a {
 @media screen and (max-width: 768px) {
    body, {
       flex-direction: column;
-    }
+    ]
 
 }
